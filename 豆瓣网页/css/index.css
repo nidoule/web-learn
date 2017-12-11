@@ -1,0 +1,88 @@
+/*基础布局样式*/
+.mg_header {
+	/*width: 100%;*/
+	height: 90px;
+	/*background: red;*/
+}
+
+.mg_form {
+	height:180px;
+	background:#EDF4ED; 
+}
+.mg_form .main {
+	background-image: url(../img/doubanapp5_bg.png);
+}
+.mg_hot {
+	height:180px;
+	background:grey; 
+}
+
+.mg_hot .main {
+	background: aqua;
+}
+.mg_movie{
+	height:180px;
+	background: yellow; 
+}
+
+.mg_movie .main {
+	background: pink;
+}
+
+
+
+/*头部结构样式*/
+.mg_header .main {
+	padding-top: 30px;
+}
+
+.mg_header .main .box1 {
+	width: 160px;
+	height: 34px;
+	/*border: 1px solid #eee;*/
+
+}
+
+.mg_header .main .box2 {
+	width: 270px;
+	height: 30px;
+	border: 1px solid #000;
+	margin-left: 20px;
+	
+}
+
+.mg_header .box2  .txt {
+	width: 240px;
+	height: 20px;
+	border-style: none;
+	padding: 5px;
+	color: #ccc;
+}
+.mg_header .box3 ul {
+	width: 100%;
+	height: 100%;
+
+}
+
+.mg_header .box3 ul li {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+/*表单结构样式*/
+.mg_form .main {
+	padding-top: 28px;
+}
+.mg_form .login{
+	width: 270px;
+	height: 100px;
+	background: red;
+}
+
+.mg_form form .input1 {
+	width: 252px;
+	height: 30px;
+	margin:3px 0px;
+}
